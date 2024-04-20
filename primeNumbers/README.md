@@ -21,8 +21,5 @@ print(f"{number} is prime: {result}")
 ## Contributing
 If you'd like to contribute to this project or have suggestions for improvement, please feel free to submit a pull request or open an issue.
 
-## License
-This project is licensed under the MIT License.
-
 Contact
 If you have any questions or feedback, feel free to reach out to me at [abusisiaya@gmai.com].
