@@ -9,9 +9,6 @@ Feel free to explore each project's directory for more information.
 ## Contributing
 If you'd like to contribute to any of the projects or have suggestions for improvement, I welcome pull requests and issues.
 
-## License
-This repository is licensed under the MIT License. 
-
 ## Contact
 If you have any questions or feedback, feel free to reach out to me at [abusisiaya@gmail.com].
 
