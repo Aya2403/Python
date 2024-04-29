@@ -7,19 +7,17 @@ import math
 
 
 def is_prime(n):
-    #The Sieve of Eratosthenes math concept
-    prime_divsor = math.floor(math.sqrt(n))
-    if n==1 or n==0:
-        return False
-    if n%2==0:     #if num is even and not 2 -> not prime
-        return False
-    else:
-        for i in range(3,prime_divsor+1,2):#the rest are odd numbers to check.
-            if n%i==0:
-                return False
-            else:
-                    continue
+#The Sieve of Eratosthenes math concept
+    prime_divisor = math.isqrt(n) + 1  # Using isqrt for integer square root instead of sqrt and floor
+    # +1 for the upper limit for the loop.
+    if n == 2:
         return True
+    if n < 2 or n % 2 == 0: #if num is even and not 2 -> not prime , also numbers less than 2
+        return False
+    for i in range(3,prime_divisor,2):#the rest are odd numbers to check.
+        if n%i==0:
+            return False
+    return True
 #Task2 : calc the num of primes between 100-151 inclusive
 x=0 #to calculate the number of primes
 for i in range(100,152): #added one to include 151
